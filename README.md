@@ -55,7 +55,8 @@ Fire up `node server` from a terminal.
 
 ## To Do
 
-  - 
+  - Add test for MongoDB connection 
+  - Add other database drivers
 
 
 
