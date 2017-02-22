@@ -22,14 +22,14 @@ Creates a `mongod.cfg` file inside `"C:\Programme Files\MongoDB\Server\3.4\"` if
 ```
 systemLog:
     destination: file
-    path: c:\data\log\mongod.log
+    path: C:\data\log\mongod.log
 storage:
-    dbPath: c:\data\db
+    dbPath: C:\data\db
 ```
 
 You'll then need to add the folders above.
 
-`mkdir c:\data\log\` & `mkdir c:\data\db`
+`mkdir C:\data\log\` & `mkdir C:\data\db`
 
 `net start mongoDB` to start the service.
 
@@ -39,7 +39,11 @@ In another terminal do:
 
 `use emberData` creates and switches to a new database called emberData (call this what you like but remember to change the endpoint in server.js)
 
-> add mongo.exe and mongod.exe to windows PATH for future use.
+> add C:\Program Files\MongoDB\Server\3.4\bin to windows PATH for future use of mongo and mongod.
+
+## Issues
+If you have issues with mongod try manually shutting down mongo `use admin` and `db.shutdownServer()`
+Then `mongod --dbpath /data/db --repair` should refresh the lock file
 
 ## Dependancies
 
