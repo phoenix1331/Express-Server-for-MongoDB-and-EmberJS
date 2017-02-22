@@ -41,14 +41,21 @@ In another terminal do:
 
 > add mongo.exe and mongod.exe to windows PATH for future use.
 
-
-
-
-
-
-
-
-
+## Dependancies
 
 `npm install` to pull in Mongoose and Express
+
+## Start her up
+
+Fire up `node server` from a terminal.
+
+## Test
+
+`curl http://localhost:4500/test/` should return "working"
+
+## To Do
+
+  - 
+
+
 
