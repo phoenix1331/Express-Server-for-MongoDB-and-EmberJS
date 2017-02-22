@@ -1,8 +1,8 @@
 {
-  "name": "ember-server",
+  "name": "Express Server",
   "version": "1.0.0",
-  "description": "Ember server with MogoDB",
-  "main": "index.js",
+  "description": "Ember server with MongoDB",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

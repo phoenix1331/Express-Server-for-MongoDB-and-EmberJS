@@ -20,9 +20,9 @@ var noteSchema = new mongoose.Schema({
 
 var NoteModel = mongoose.model('notes',noteSchema);
 
-// app.get('/api/',function(req,res) {
-// 	res.send('Working');
-// });
+app.get('/test',function(req,res) {
+	res.send('Working');
+});
 
 app.get('/api/notes', function(req,res) {
 	NoteModel.find({},function(err,docs) {
