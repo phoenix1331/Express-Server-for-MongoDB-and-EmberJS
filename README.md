@@ -1,6 +1,6 @@
 # Express Server for MongoDB and Ember JS
 
-I used this server to sit between MongoDB and my basic [EmberJS App](https://github.com/phoenix1331/EmberApp)
+This server sits between MongoDB and a basic [EmberJS App](https://github.com/phoenix1331/EmberApp)
 
 ## Prerequisites
 
