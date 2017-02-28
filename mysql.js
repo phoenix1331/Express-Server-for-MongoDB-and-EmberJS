@@ -31,7 +31,7 @@ app.get('/test',function(req,res) {
 });
 
 app.get('/api/notes', function(req,res) {
-	connection.query('SELECT * from dvds', function (err, results) {
+	connection.query('SELECT * from dvds ORDER BY dv_id DESC', function (err, results) {
 	  if (err) throw err
 	  	// res.send('Working');
 	  res.send(results)
