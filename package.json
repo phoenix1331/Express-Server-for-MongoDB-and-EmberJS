@@ -1,5 +1,5 @@
 {
-  "name": "Express Server",
+  "name": "ExpressServer",
   "version": "1.0.0",
   "description": "Ember server with MongoDB",
   "main": "server.js",
@@ -9,7 +9,9 @@
   "author": "Darren Williams",
   "license": "MIT",
   "devDependencies": {
+    "body-parser": "^1.16.1",
     "express": "^4.14.1",
-    "mongoose": "^4.8.4"
+    "mongoose": "^4.8.4",
+    "mysql": "^2.13.0"
   }
 }
